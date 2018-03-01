@@ -1,0 +1,24 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "export NODE_ENV=development && webpack --hide-modules",
+    "dev": "export NODE_ENV=development && webpack --hide-modules --watch",
+    "production": "export NODE_ENV=production && webpack --hide-modules"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "webpack": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-env ": "^6.24.1",
+    "webpack-cli": "^2.0.9"
+  }
+}
